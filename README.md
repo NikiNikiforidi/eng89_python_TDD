@@ -62,6 +62,5 @@ class SimpleCalc:
     def divide(self, num1, num2):
         return num1 / num2
 ```
-
-# **TDD in class diagram**
+### **TDD in class diagram**
 ![TDD in class diagram](https://user-images.githubusercontent.com/86292184/123640932-9295b980-d819-11eb-93b8-a58c5a525798.png)
