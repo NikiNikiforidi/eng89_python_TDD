@@ -13,6 +13,8 @@
 - To check if tests have passed/failed, in Terminal type `python -m pytest`
 
 ```
+# File name is calc_test.py
+
 import unittest
 import pytest
 
@@ -47,6 +49,8 @@ class Calctest(unittest.TestCase):
 
 - **Code below is from the separate python file named simple_calc**
 ```
+# File name is simple_calc.py 
+
 class SimpleCalc:
 
 # If outcome is 5, the test is true
