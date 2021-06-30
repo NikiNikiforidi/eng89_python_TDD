@@ -9,10 +9,14 @@
 - `python -m unittest discover -v` To see more information about our python results 
 
 
-- Lets import unittest and pytest
+### Lets import unittest and pytest
 - These are the dependencies to create our test and run
 - To check if tests have passed/failed, in Terminal type `python -m pytest`
 - Create the tests (this is done before writing the code
+**Differences unittest vs pytest**
+  unittest : Used to test each individual unit in your class
+  pytest : Used to test the entire file_test in one go
+  
 ```
 # File name is calc_test.py
 
@@ -27,6 +31,10 @@ class Calctest(unittest.TestCase): # To use TestCast we need to inherit it from 
 ```
 - Assertions to write out test cases
 - We will use our basic cal example to write the test first then the code
+
+**Definition**
+- In methods, `assertEqual`: accept three parameter ((value1, value2) int or string):
+- assertEqual and other options are from unittest package
 ```
     def test_add(self):
         # Naming convention is essential, TEST needs to be in the name
