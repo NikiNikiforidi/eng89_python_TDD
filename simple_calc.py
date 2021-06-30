@@ -1,3 +1,5 @@
+# The logic code which is use to test on
+
 class SimpleCalc:
 
 # If outcome is 5, the test is true

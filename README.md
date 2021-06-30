@@ -1,17 +1,18 @@
 # Test Driven Development TDD
 
 ### Steps to create TDD
-- Create a file called calc_test.py
-- Will use `unittest` and `pytest` (these are packages)
-- Need to install `pip install pytest`  
+- Create a file called calc_test.py. This will be for the test code
+- Create a file called simple_calc.py. This will be the code to pass the tests  
+- Will use `unittest` and `pytest` in calc_test (these are packages)
+- Need to install below two packages, e.g `pip install pytest`  
 - `python -m unittest`
-- `python -m unittest discover -v` To see more information
+- `python -m unittest discover -v` To see more information about our python results 
 
 
 - Lets import unittest and pytest
 - These are the dependencies to create our test and run
 - To check if tests have passed/failed, in Terminal type `python -m pytest`
-
+- Create the tests (this is done before writing the code
 ```
 # File name is calc_test.py
 
@@ -20,7 +21,7 @@ import pytest
 
 from simple_calc import SimpleCalc # The code from simple_calc is below
 
-class Calctest(unittest.TestCase):
+class Calctest(unittest.TestCase): # To use TestCast we need to inherit it from unittest package.
 
     calc = SimpleCalc()
 ```
@@ -48,8 +49,11 @@ class Calctest(unittest.TestCase):
 ```
 
 - **Code below is from the separate python file named simple_calc**
-```
-# File name is simple_calc.py 
+- The logic code which is used to test on
+- File name is simple_calc.py 
+``````
+
+# This is logic code which is use to test on
 
 class SimpleCalc:
 

@@ -5,13 +5,13 @@
 import unittest
 import pytest
 
+# - Create the tests (this is done before writing the code
 from simple_calc import SimpleCalc
 
-class Calctest(unittest.TestCase):
-
+class Calctest(unittest.TestCase): # To use TestCast we need to inherit it from unittest package.
     calc = SimpleCalc()
 
-# Assertions to write out test cases
+# Assertions to write out test cases# The logic code which is use to test on
 # - We will use our basic cal example to write the test first then the code
 
     def test_add(self):
