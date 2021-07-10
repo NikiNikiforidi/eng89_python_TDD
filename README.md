@@ -17,6 +17,8 @@
   unittest : Used to test each individual unit in your class
   pytest : Used to test the entire file_test in one go
   
+
+- **Code below is from the separate python file named calc_test**
 ```
 # File name is calc_test.py
 
@@ -79,4 +81,6 @@ class SimpleCalc:
         return num1 / num2
 ```
 ### **TDD in class diagram**
+
 ![TDD in class diagram](https://user-images.githubusercontent.com/86292184/123640932-9295b980-d819-11eb-93b8-a58c5a525798.png)
+
